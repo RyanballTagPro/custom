@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "bscBot";
+    var fork = "RyanballTagPro";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -58,21 +58,21 @@
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 90,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
       lockGuard: false,
-      maximumLocktime: 10,
+      maximumLocktime: 5,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
-      voteSkipLimit: 10,
-      historySkip: false,
+      voteSkip: true,
+      voteSkipLimit: 5,
+      historySkip: true,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 30,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
@@ -80,7 +80,7 @@
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
+      ["history", "This song is in the recent history. "],
       ["mix", "You played a mix, which is against the rules. "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
@@ -88,8 +88,8 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
-      motdInterval: 5,
+      motdEnabled: true,
+      motdInterval: 1,
       motd: "Temporary Message of the Day",
       filterChat: true,
       etaRestriction: false,
@@ -98,16 +98,16 @@
       rulesLink: null,
       themeLink: null,
       fbLink: null,
-      youtubeLink: null,
-      website: null,
+      youtubeLink: "https://www.youtube.com/user/oceanicTagPro",
+      website: "https://www.reddit.com/r/oceanictagpro",
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/bscBot/custom/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/bscBot/custom/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/RyanballTagPro/custom/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/RyanballTagPro/custom/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/RyanballTagPro/custom/master/blacklists/BANNEDlist.json"
       }
     }));
 
