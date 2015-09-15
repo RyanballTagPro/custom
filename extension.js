@@ -89,7 +89,7 @@
       afkpositionCheck: 4,
       afkRankCheck: "ambassador",
       motdEnabled: false,
-      motdInterval: 1,
+      motdInterval: null,
       motd: "Temporary Message of the Day",
       filterChat: true,
       etaRestriction: false,
