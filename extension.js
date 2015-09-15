@@ -100,7 +100,7 @@
       fbLink: null,
       youtubeLink: "https://www.youtube.com/user/oceanicTagPro",
       website: "https://www.reddit.com/r/oceanictagpro",
-      intervalMessages: ["#GiveiTagMinutes","Welcome to the Oceanic Tagpro plugdj! Find us at /r/OceanicTagpro", "Play Now! http://tagpro-diameter.koalabeast.com", "!motd"],
+      intervalMessages: ["#GiveiTagMinutes","Welcome to the Oceanic Tagpro plug.dj! Find us at http://www.reddit.com/r/OceanicTagpro", "Play Now! http://tagpro-diameter.koalabeast.com", "!motd"],
       messageInterval: 2,
       songstats: false,
       commandLiteral: "!",
